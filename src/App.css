@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
-.body{
-  font-family: 'Cormorant Garamond', serif;
+body{
+  background-color: rgba(137, 43, 226, 0.527) !important;
+  font-family: 'Cormorant Garamond', serif !important;
+}
+.divcolor{
+  background-color: rgb(245, 245, 245) !important;
+}
+.header{
+  color: black;
 }
 .buttonclass{
   background-color: grey !important;
@@ -10,3 +17,27 @@
 .inputwidth{
   width: 50% !important;
 }
+
+.taskliststyle{
+  display: flex;
+  gap: 1rem;
+}
+.editclass{
+  background-color: whitesmoke !important;
+  border-color: grey !important;
+  width: "2em";
+  height: "2em";
+}
+
+.filterbutton{
+  background-color: grey !important;
+  border-color: grey !important;
+  width: auto !important;
+}
+
+/*@media screen and (min-width: 900px) {
+  .mainliststyle{
+   text-align: center;
+    width: 50%;
+  }
+}*/
