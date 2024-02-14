@@ -15,14 +15,14 @@ const ToDos = ({
       {!taskdisplay ? (
         <li
           class={`mainliststyle list-group-item d-flex justify-content-between align-items-center ${
-            checkedItems[index] ? "bg-success" : ""
+            checkedItems["CheckItem" + index] ? "bg-success" : ""
           }`}
           key={index}
         >
           <div class="taskliststyle">
             <input
               type="checkbox"
-              checked={checkedItems[index]}
+              checked={checkedItems["CheckItem" + index]}
               onChange={() => handleCheck(index)}
             ></input>
             <div>{taskadded}</div>
